@@ -1,0 +1,89 @@
+html{
+  box-sizing:border-box;
+}
+*,*:before, *:after{
+  box-sizing:inherit;
+}
+
+body{
+  background-color:LightGray;
+  font-family:'Roboto', sans-serif;
+}
+div {
+  border: 1 px solid Chocolate;
+}
+
+div.content{
+}
+
+.top-navigation {
+  background-color:#fff;
+}
+.top-navigation > .content{
+  width:970px;
+  height:70px;
+  padding:0px 15px;
+
+}
+
+
+.top-navigation .links{
+  float:right;
+  font-family:'Roboto', sans-serif;
+  color:#838994;
+  font-size:16px;
+  margin-top:25px;
+  -webkit-font-smoothin:antialiased;
+}
+
+.top-navigation .links li{
+  display:inline-block;
+  margin-left:25px;
+}
+
+.top-navigation .links .active{
+  color:#4c5058;
+  font-weight:500;
+}
+
+.top-navigation .links li:hover{
+  cursor:pointer;
+  color:#333333;
+}
+
+/*img.logo{
+  margin-left: ;
+}*/
+
+.introduction{
+  background-image:url('karma-images/first-backgroundcopy.jpg');
+  background-position:center-bottom;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:45.938rem;
+  overflow:auto;
+}
+
+.introduction h1,
+.introduction h3{
+  color:white;
+  text-align:center;
+  font-weight:300;
+}
+
+.introduction h3{
+  margin-top:1.25rem;
+  font-size:1.563rem;
+}
+
+button{
+  text-shadow:none;
+  border-style:none;
+  border-radius:4px;
+  padding:1rem 1.5rem;
+  width:9.688rem;
+  background-color:orange;
+  font-size:1.125rem;
+  color:white;
+  margin:0 auto;
+}
