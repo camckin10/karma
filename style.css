@@ -76,6 +76,10 @@ div.content{
   font-size:1.563rem;
 }
 
+p {
+  margin-left: 20px; /* Delete this! */ 
+}
+
 button{
   text-shadow:none;
   border-style:none;
