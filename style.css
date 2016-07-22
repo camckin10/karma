@@ -76,9 +76,6 @@ div.content{
   font-size:1.563rem;
 }
 
-p {
-  margin-left: 20px; /* Delete this! */ 
-}
 
 button{
   text-shadow:none;
@@ -90,4 +87,17 @@ button{
   font-size:1.125rem;
   color:white;
   margin:0 auto;
+
+}
+
+.cases{
+  font-family:normal;
+  color:black;
+  text-align:center;
+
+}
+
+h2{
+  text-align:center;
+  margin:auto;
 }
