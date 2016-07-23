@@ -6,7 +6,6 @@ html{
 }
 
 body{
-  background-color:LightGray;
   font-family:'Roboto', sans-serif;
 }
 div {
@@ -66,6 +65,13 @@ div.content{
   background-size:cover;
   height:45.938rem;
   overflow:auto;
+
+}
+.middle section{
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+
 }
 
 .introduction h1,
@@ -91,6 +97,7 @@ button{
   font-size:1.125rem;
   color:white;
   margin:0 auto;
+  display:block;
 
 }
 
@@ -106,6 +113,10 @@ h2{
   margin:auto;
 }
 
+.footer{
+  display:inline-block;
+  margin:0 40px 0 0;
+}
 /*.devices{
   box-sizing: border-box;
   margin:0;
@@ -117,10 +128,10 @@ h2{
 
 }*/
 
-.devices .caption{
+/*{ 3-icon section borders?
   width:33.3333333%;
   display:inline-block;
   border:1px solid black;
   box-sizing:border-box;
   height:4em;
-}
+}*/
