@@ -67,7 +67,7 @@ div.content{
   overflow:auto;
 
 }
-.middle section{
+ .middle.section{
   text-align: center;
   display: table-cell;
   vertical-align: middle;
@@ -113,10 +113,14 @@ h2{
   margin:auto;
 }
 
-.footer{
+.images{
   display:inline-block;
   margin:0 40px 0 0;
+  text-align:center;
+  vertical-align:baseline;
+
 }
+
 /*.devices{
   box-sizing: border-box;
   margin:0;
