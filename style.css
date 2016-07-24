@@ -12,8 +12,7 @@ div {
   border: 1 px solid Chocolate;
 }
 
-div.content{
-}
+
 
 .top-navigation {
   background-color:#fff;
@@ -121,6 +120,34 @@ h2{
 
 }
 
+.icons{
+
+ }
+
+
+/*Footer CSS code examples /*
+1)example 1
+/*border-radius: 1.25rem;
+width: 2.5rem;
+height: 2.5rem;
+display: inline-block;
+margin: 1.25rem 5px;
+border: 1px solid #eaebec;
+padding: 0.625rem 0;
+text-align: center;
+}*/
+
+
+
+/*example 2 /*
+   /*border-radius:10px 5%;
+   border-bottom-left-radius:20px;
+   border-bottom-right-radius:20px;
+   border-bottom-style:solid;
+   border-bottom-width:1px;
+//icons section comment out
+
+/*example 3 /*
 /*.devices{
   box-sizing: border-box;
   margin:0;
@@ -131,7 +158,7 @@ h2{
   vertical-align: baseline;
 
 }*/
-
+/*example 4 /*
 /*{ 3-icon section borders?
   width:33.3333333%;
   display:inline-block;
