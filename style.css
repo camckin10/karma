@@ -7,6 +7,7 @@ html{
 
 body{
   font-family:'Roboto', sans-serif;
+  margin:0;
 }
 div {
   border: 1 px solid Chocolate;
@@ -19,6 +20,7 @@ div {
   position:fixed;
   width:100%;
   z-index:9999;
+  padding:5px;
 
 }
 .top-navigation > .content{
@@ -64,12 +66,17 @@ div {
   background-size:cover;
   height:45.938rem;
   overflow:auto;
+  position:relative;
 
 }
- .middle.section{
+ .middle-section{
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
 
 }
 
@@ -112,29 +119,71 @@ h2{
   margin:auto;
 }
 
+.image-outer-wrapper{
+  position:relative;
+  height:200px;
+}
+
+.image-wrapper{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+
+}
 .images{
-  display:inline-block;
+  display:table-cell;;
   margin:0 40px 0 0;
   text-align:center;
   vertical-align:baseline;
    box-sizing:border-box;
    font:inherit;
    font-size:100%;
+   padding:20px;
 }
 
-.footer{
+/*.footer{
   display:flex;
   justify-content:center;
+}*/
+
+.footer-title{
+  width:20%;
+  margin:0 auto;
+  text-align:center;
+
+}
+
+.social{
+  width:100%;
+
 }
 
 
 .icons{
-   border-radius: 240px / 210px;
-   width:540px; height:420px;
-   display:flex;
-   justify-content:center;
-   list-style:none
+   list-style:none;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%, -50%);
 
+ }
+
+ .icons-wrapper{
+   position:relative;
+   height:100px;
+ }
+
+ .icons li{
+   padding:15px;
+   display:inline-block;
+   background-color:white;
+   border-radius:50%;
+   width:60px;
+   height:60px;
+   text-align:center;
+   line-height:32px;
+   border:1px solid #999;
  }
 
 
